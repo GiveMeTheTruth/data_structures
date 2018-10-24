@@ -73,7 +73,7 @@ public class Array {
 
         data[index] = e;
     }
-    
+
     public int find(int e) {
         for (int i = 0; i < size; i++) {
             if(data[i] == e) {
@@ -95,7 +95,6 @@ public class Array {
             }
         }
         res.append("]");
-
         return res.toString();
     }
 }
