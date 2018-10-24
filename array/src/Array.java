@@ -95,6 +95,7 @@ public class Array {
             }
         }
         res.append("]");
+        
         return res.toString();
     }
 }
